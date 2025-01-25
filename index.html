@@ -121,7 +121,27 @@ body{
 span {
   display: inline-block;
   width: auto;
-}</style>
+}
+
+.social-icons {
+  display: flex; /* Arrange icons in a row */
+  justify-content: center; /* Center the icons horizontally */
+  gap: 10px; /* Space between the icons */
+  margin-top: 20px; /* Add space above the icons */
+}
+
+.social-icons img {
+  width: 40px; /* Adjust the size of the icons */
+  height: auto;
+  cursor: pointer; /* Makes the icons appear clickable */
+  transition: transform 0.3s ease; /* Add a hover animation */
+}
+
+.social-icons img:hover {
+  transform: scale(1.2); /* Slightly enlarge the icon on hover */
+}
+</style>
+
 <div data-widget-root="" class="widgetContainer">
     <div id="socialHolder">
         <div id="holder">
